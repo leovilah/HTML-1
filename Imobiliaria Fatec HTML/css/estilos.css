@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  
+  header {
+    background-color: #f7d307;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a{
+    color:#000;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 100px;
+    font-size: 25px;
+    font-style: italic;
+  
+  }
+  
+  form{
+    text-align:left ;
+    max-width: 500px; /* tamanho máximo */
+    margin: 35px auto; /* centraliza o conteúdo automaticamente */
+    border: 1px solid #000;
+    border-radius: 16px; /* arredondamento dos cantos */
+    box-shadow: 0 0 32px rgba(0,0,0,0.5); /* cria um sombreamento */
+    background: rgba(253, 252, 252, 0.8); /* o a é de alpha e indica transparênc.*/
+    display: flex; /* organiza os elementos  */
+    flex-direction: column; /* os elementos serão exibidos em colunas */
+    padding: 16px;
+    align-items: left;
+  }
+  label{
+    margin-top: 16px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+  }
+  
+  #registrosTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #registrosTable th,
+  #registrosTable td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #registrosTable th {
+    background-color: #ffffffe8;
+  }
+  
+  .center{
+    text-align: center;
+  }
